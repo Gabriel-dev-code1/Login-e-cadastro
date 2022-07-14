@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Cadastro</title>
+        <style>
+            body{
+                background-color: #483D8B;
+            }
+            .main-cadastro{
+                align-items: center;
+                justify-content: center;
+                display: flex;
+                flex-direction: column;
+                width: 40%;
+                height: 10%;
+                border: none;
+                padding: 20px 0px;
+                margin: 50px 350px;
+                background-color: #191970;
+                border-radius: 20%;
+                
+            }
+            .main-informações{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin: 0;
+                border: none;
+                margin: 0;
+                padding: 20px 0px;
+                align-items: flex-start;
+            }
+            .main-informações>input{
+                width: 100%;
+                padding: 10px 0px;
+                border-radius: 12px;
+                outline: none;
+                box-shadow: 7px 5px;
+                box-sizing: border-box;
+            }
+            .main-informações > label{
+                align-items: flex-start;
+                font-size: 1.5rem;
+                font-weight: 600;
+                color: #00FFFF;
+                padding: 5px;
+                
+            }
+            .btn-cadastro{
+                box-shadow: 8px 1px;
+                margin: 25px;
+                padding: 20px 60px;
+                border-radius: 15px;
+                cursor: pointer;
+                letter-spacing: 3px;
+                font-weight: 600;
+                background-color: #00FFFF;
+                text-transform: uppercase;
+            }
+            .main-cadastro>h1{
+                color: #00FFFF;
+            }
+            .main-cadastro>image{
+                width: 10px;
+                height: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="main-cadastro">
+            <h1>Cadastre-se</h1>
+            <img src="cad.svg" alt="cadastro" width="300px" height="300px">
+            <div class="main-informações">
+                <label for="Nome">Nome</label>
+                <input type="text" placeholder="Digite seu nome">
+                <label for="Email">Email</label>
+                <input type="email" placeholder="Digite seu email">
+                <label for="data-nascimento">Data de nascimento</label>
+                <input type="date" placeholder="Data de nascimento">
+                <label for="Senha">Senha</label>
+                <input type="password" placeholder="Digite sua senha">
+                <button class="btn-cadastro">Salvar</button>
+            </div>
+        </div>
+
+
+
+
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+</html>
